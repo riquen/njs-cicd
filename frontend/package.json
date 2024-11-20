@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "yarn test --watch"
+  },
+  "dependencies": {
+    "next": "latest",
+    "prop-types": "15.7.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-is": "18.3.1",
+    "styled-components": "5.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "13.1.1",
+    "babel-plugin-styled-components": "1.13.2",
+    "jest": "27.0.0",
+    "jest-canvas-mock": "2.3.1",
+    "jest-styled-components": "7.0.8"
+  }
+}
